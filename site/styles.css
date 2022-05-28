@@ -1,0 +1,59 @@
+p {
+ 	color: #630C4A;
+ 	font-weight: 600;
+ 	font-family: 'Noto Sans Tamil', sans-serif;
+ 	background-color: #FFA07A;
+	border: 2px solid maroon;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+ul {
+ 	color: #630C4A;
+ 	list-style-type: upper-greek;
+ 	font-weight: 600;
+ 	font-family: 'Noto Sans Tamil', sans-serif;
+}
+.you {
+ 	color: #630C4A;
+ 	list-style-type: upper-greek;
+ 	font-weight: 600;
+ 	font-family: 'Noto Sans Tamil', sans-serif;
+}
+.random {
+ 	color: #08164A;
+ 	text-align: center;
+ 	font-family: 'Noto Sans Tamil', sans-serif;
+}
+hr {
+ 	color: red;
+ 	width: 90%;
+ 	height: 1%;
+}
+/*DESKTOP VIEW*/
+@media(min-width: 992px) and (max-width: 1199px) {
+section {
+	width: 80%;
+}
+hr {
+	width: 80%;
+}
+}
+/*TABLET VIEW*/
+@media(min-width: 768px) and  (max-width: 991px) {
+	section {
+		width: 70%;
+	}
+	hr {
+		width: 70%;
+	}
+/*MOBILE VIEW*/
+@media(min-width: 500px) and (max-width: 767px) {
+	section {
+		width: 60%;
+	}
+	hr {
+		width: 60%;
+	}
+}
+}
